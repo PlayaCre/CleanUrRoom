@@ -1,0 +1,7 @@
+# ninja log v5
+0	123	7434734274726748	build.ninja	2098f4f82b3197e7
+0	241	7434706256940148	CMakeFiles/CleanUrRoom.dir/Source/Person.cpp.obj	f06204633bd0d821
+3	539	7434732206017510	CMakeFiles/CleanUrRoom.dir/Source/FileFinder.cpp.obj	7d4a19d9f3e99648
+3	441	7434732388143304	CMakeFiles/CleanUrRoom.dir/main.cpp.obj	a192db164aedf9c5
+441	542	7434732389124329	CleanUrRoom.exe	f03248595230e399
+2	527	7434731470291736	CMakeFiles/CleanUrRoom.dir/Source/ObjFinder.cpp.obj	57fbbc3b2ee5161c
