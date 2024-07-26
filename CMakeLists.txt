@@ -4,6 +4,6 @@ project(CleanUrRoom)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(CleanUrRoom main.cpp
-        Source/FileFinder.cpp
-        Header/FileFinder.h
+        Source/FileHandler.cpp
+        Header/FileHandler.h
 )

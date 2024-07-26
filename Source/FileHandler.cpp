@@ -1,0 +1,20 @@
+//
+// Created by Canel on 26.07.2024.
+//
+
+#include "../Header/FileHandler.h"
+FileHandler::FileHandler(const string &n) : directory_path(n){}
+
+
+unsigned int FileHandler::countAllFiles() {
+    unsigned int counter = 0;
+    for (const auto & entry : fs::directory_iterator(directory_path)) {
+        string s = entry.path().string();
+        if(!(entry.path().extension() == ".ini")){
+            std::cout << entry.path() << std::endl;
+            counter++;
+        }
+    }
+    cout << counter << " Files was found." << endl;
+    return counter;
+}

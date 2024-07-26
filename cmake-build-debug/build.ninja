@@ -55,17 +55,11 @@ build CMakeFiles/CleanUrRoom.dir/main.cpp.obj: CXX_COMPILER__CleanUrRoom_unscann
   OBJECT_DIR = CMakeFiles\CleanUrRoom.dir
   OBJECT_FILE_DIR = CMakeFiles\CleanUrRoom.dir
 
-build CMakeFiles/CleanUrRoom.dir/Source/FileFinder.cpp.obj: CXX_COMPILER__CleanUrRoom_unscanned_Debug C$:/Users/Canel/Desktop/CleanUrRoom/Source/FileFinder.cpp || cmake_object_order_depends_target_CleanUrRoom
-  DEP_FILE = CMakeFiles\CleanUrRoom.dir\Source\FileFinder.cpp.obj.d
+build CMakeFiles/CleanUrRoom.dir/Source/FileHandler.cpp.obj: CXX_COMPILER__CleanUrRoom_unscanned_Debug C$:/Users/Canel/Desktop/CleanUrRoom/Source/FileHandler.cpp || cmake_object_order_depends_target_CleanUrRoom
+  DEP_FILE = CMakeFiles\CleanUrRoom.dir\Source\FileHandler.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CleanUrRoom.dir
   OBJECT_FILE_DIR = CMakeFiles\CleanUrRoom.dir\Source
-
-build CMakeFiles/CleanUrRoom.dir/Header/Files.cpp.obj: CXX_COMPILER__CleanUrRoom_unscanned_Debug C$:/Users/Canel/Desktop/CleanUrRoom/Header/Files.cpp || cmake_object_order_depends_target_CleanUrRoom
-  DEP_FILE = CMakeFiles\CleanUrRoom.dir\Header\Files.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CleanUrRoom.dir
-  OBJECT_FILE_DIR = CMakeFiles\CleanUrRoom.dir\Header
 
 
 # =============================================================================
@@ -75,7 +69,7 @@ build CMakeFiles/CleanUrRoom.dir/Header/Files.cpp.obj: CXX_COMPILER__CleanUrRoom
 #############################################
 # Link the executable CleanUrRoom.exe
 
-build CleanUrRoom.exe: CXX_EXECUTABLE_LINKER__CleanUrRoom_Debug CMakeFiles/CleanUrRoom.dir/main.cpp.obj CMakeFiles/CleanUrRoom.dir/Source/FileFinder.cpp.obj CMakeFiles/CleanUrRoom.dir/Header/Files.cpp.obj
+build CleanUrRoom.exe: CXX_EXECUTABLE_LINKER__CleanUrRoom_Debug CMakeFiles/CleanUrRoom.dir/main.cpp.obj CMakeFiles/CleanUrRoom.dir/Source/FileHandler.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CleanUrRoom.dir
