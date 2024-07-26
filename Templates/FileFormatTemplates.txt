@@ -1,0 +1,16 @@
+Executable Files (Windows):      .exe ; .msi
+Executable Files (macOS):        .app ; .dmg ; .pkg
+Executable Files (Linux):        .deb ; .rpm ; .AppImage
+Platform-Independent Formats:    .jar ; .air
+Mobile Applications:             .apk ; .ipa ; .xap
+Databases:                       .sql ; .mdb ; .accdb ; .sqlite ; .db
+Microsoft Word:                  .doc ; .docx ; .dot ; .dotx ; .docm ; .dotm
+Microsoft Excel:                 .xls ; .xlsx ; .xlsm ; .xltx ; .xltm ; .xlsb ; .xlam
+Microsoft PowerPoint:            .ppt ; .pptx ; .pptm ; .pot ; .potx ; .potm ; .pps ; .ppsx ; .ppsm
+PDF:                             .pdf
+Raster Graphics:                 .jpeg, .jpg ; .png ; .gif ; .bmp ; .tiff, .tif ; .webp ; .heif, .heic ; .ico ; .psd ; .raw ; .cr2 ; .nef ; .arw ; .orf ; .dng
+Vector Graphics:                 .svg ; .eps ; .ai ; .cdr
+Audio:                           .mp3 ; .wav ; .flac ; .aac ; .ogg ; .wma ; .alac ; .aiff
+Video:                           .mp4 ; .avi ; .mkv ; .mov ; .wmv ; .flv ; .mpeg, .mpg ; .webm ; .3gp
+Archives:                        .zip ; .rar ; .7z ; .tar ; .gz ; .bz2 ; .xz ; .iso
+Web:                             .html, .htm ; .css ; .js ; .json ; .xml ; .php
