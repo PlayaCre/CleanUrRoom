@@ -5,29 +5,26 @@
 #ifndef CLEANURROOM_FILEHANDLER_H
 #define CLEANURROOM_FILEHANDLER_H
 
-
 #include <string>
 #include <vector>
 #include <fstream>
 #include <filesystem>
 #include <iostream>
 
-using namespace std;
-namespace fs = filesystem;
+namespace fs = std::filesystem;
 
 class FileHandler {
 private:
-    vector<string> files;  // Vector to store file names
-    string directory_path;  // Path to the directory
-    string template_path;  // Path to the directory
+    std::vector<std::string> files;  // Vector to store file names
+    std::string directory_path;  // Path to the directory
+    std::string template_path;  // Path to the template
 
 public:
     // Constructor that initializes the path
-    FileHandler(const string &n);
+    explicit FileHandler(const std::string &n);
 
     // Function to count all files in the directory
     unsigned int countAllFiles();
 };
-
 
 #endif //CLEANURROOM_FILEHANDLER_H
